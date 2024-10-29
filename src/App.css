@@ -1,0 +1,118 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
+.button-container {
+  margin: 20px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #5d99c6;
+  color: white;
+}
+
+button:hover {
+  background-color: #467aaf;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.image-container {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 10px;
+  border: 2px solid #5d99c6;
+}
+
+.quote-table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.quote-table th,
+.quote-table td {
+  border: 1px solid #5d99c6;
+  padding: 10px;
+  text-align: left;
+}
+
+.quote-table th {
+  background-color: #5d99c6;
+  color: white;
+}
+
+.quote-table td {
+  background-color: #e7f2fa;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.button-container {
+  margin: 20px 0;
+}
+
+.card, .image-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.user-table, .quote-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td,
+.quote-table th, .quote-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th, .quote-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even),
+.quote-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover,
+.quote-table tr:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
